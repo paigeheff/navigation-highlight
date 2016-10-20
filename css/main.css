@@ -25,6 +25,7 @@ h1 {
   font-size: 3rem;
   color: #b20953;
   text-align: center;
+  margin: 0;
 }
 
 h2 {
@@ -37,6 +38,8 @@ footer {
   font-size: .75rem;
   background-color: #ffe500;
   margin: 0;
+  text-align: center;
+  padding: 10px;
 }
 
 
@@ -44,18 +47,32 @@ footer {
   text-decoration: none;
   color: #fff;
   border-radius: 4px;
-  margin: .2em .3em;
+  margin-bottom: .3em;
   text-align: center;
   background: #b2a212;
+  padding: .2em .5em .3em;
+  display: inline-block;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+}
+
+nav {
+  text-align: center;
 }
 
 .cards li {
   display: inline-block;
   border-radius: 4px;
   padding:
-
 }
 
 a.highlight {
   background-color: #b20953;
+}
+
+.cards a:hover {
+  background: #cc1465;
 }
