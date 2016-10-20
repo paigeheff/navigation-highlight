@@ -1,15 +1,43 @@
 html{
-  font: Georgia;
-
+    font-family: Georgia;
     box-sizing: border-box;
     line-height: 1.5;
+    color: #2f2d13;
+    font-size: 1.125rem;
   }
 
   *, *::before, *::after {
     box-sizing: inherit;
   }
 
-h1 h2{
+h1 {
   font-family: 'Sigmar One', cursive;
-  
+  font-size: 3rem;
+  color: #b20953;
+
+}
+h2 {
+  font-family: 'Sigmar One', cursive;
+  font-size: 1.875rem;
+  color: #b20953;
+}
+
+footer {
+  font-size: .75rem;
+}
+
+
+.cards a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.cards li {
+  display: inline-block;
+  padding:
+
+}
+
+.highlight {
+  background-color: #b20953;
 }
